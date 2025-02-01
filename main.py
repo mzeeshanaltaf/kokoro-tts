@@ -127,6 +127,7 @@ if generate_tts:
         # Display audio player
         st.subheader('Audio :loud_sound::', divider='gray')
         st.audio(buffer.read(), format="audio/mpeg")
+        st.success(f"Audio for {len(text)} characters was generated in {time_taken:.2f} seconds!", icon='✅')
 
 
 
