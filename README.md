@@ -6,7 +6,7 @@ female voices to create audio that resonates with your needs — whether for sto
 easier than ever! 🎙️✨
 
 # Application Link
--
+https://kokoro-tts.streamlit.app/
 
 # Technologies Used
 * Kokoro-82M -- Text to Speech Model
