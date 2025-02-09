@@ -93,7 +93,7 @@ generate_tts = st.button('Generate Audio', type='primary', icon=":material/text_
 
 # Convert text to speech if button is pressed
 if generate_tts:
-    with st.spinner('Converting Text to Speech ...'):
+    with st.spinner('Converting Text to Speech ...', show_time=True):
         start_time = time.time() # Start the time to keep track of time taken for text to speech conversion
 
         pipeline = KPipeline(lang_code=lang_code)
