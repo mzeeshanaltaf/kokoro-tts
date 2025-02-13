@@ -86,7 +86,7 @@ sample_text = sample_text_mapping[selected_language].strip()
 
 # Text input
 st.subheader('Input Text:', divider='gray')
-text = st.text_area('Input Text', sample_text, label_visibility="collapsed", disabled=voice_error)
+text = st.text_area('Input Text', sample_text, label_visibility="collapsed", max_chars=100 ,disabled=voice_error)
 
 # Button for audio generation
 generate_tts = st.button('Generate Audio', type='primary', icon=":material/text_to_speech:", disabled=voice_error)
